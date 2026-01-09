@@ -1,6 +1,4 @@
-boyd{
-    background-color: rgba(209, 117, 209, 0.933);
-}
+
 h1{
     font-size: x-large;
     color: blanchedalmond;
@@ -11,25 +9,82 @@ p{
 }
 #encabezado {
     background-color: rgb(221, 61, 200);
-    min-height: 200px;
-    height: auto;
-    width: 50%;
+    height: 60px;
+    width: 100%;
     margin: 0 auto;
-    padding: 40px;
-    border-radius: 40px 0px 20px 0px ;
-    box-shadow: 5px 5px 15px #ff6fb1;
-    
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 
     
 }
-#encabezado h1{
+/* #encabezado h1{
     color: rgb(255, 255, 255);
+}*/
+
+#Logotipo{
+    width: 10%;
+    height: 100%;
+    background-color: rgb(221, 61, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#boton{
-     background: linear-gradient(135deg, #ff9ecf, #ff6fb1);
-     background-color: rgba(209, 117, 209, 0.933) ;
+#Logotipo img{
+ width: 50%;
+}
+
+#menu ul li{
+    float: left;
+
+    
+}
+
+#menu ul li a{
+    display: block;
+    color: beige;
+    text-align: center;
+    padding: 14px 20px ;
+    text-decoration: none;
+}
+
+#menu ul li a:hover{
     color: #ffffff;
-    border: none;
+    background-color: #ff3ef4 ;
+}
+
+#menu{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f3a0c3;
+}
+
+
+#redes{
+    width: 10%;
+    height: 100%;
+    background-color:rgb(221, 61, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#redes img{
+    width: 80%;
+}
+
+#boton{
+    background-color: rgba(209, 117, 209, 0.933) ;
     padding: 12px 26px;
     border-radius: 30px;
     font-size: 16px;
