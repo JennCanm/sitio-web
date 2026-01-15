@@ -1,106 +1,195 @@
+body {
+    background-color: #f4fbf7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #c72491;
+}
 
-h1{
-    font-size: x-large;
-    color: blanchedalmond;
+h1 {
     text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #c72491;
 }
-p{
-    color: rgb(230, 22, 185);
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #c72491;
 }
+
+/* ===== Encabezado ===== */
 #encabezado {
-    background-color: rgb(221, 61, 200);
-    height: 60px;
+    background-color: #e294d8;
+    height: 70px;
     width: 100%;
-    margin: 0 auto;
-    padding: 10px;
+    padding: 0 20px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-
-    
-}
-/* #encabezado h1{
-    color: rgb(255, 255, 255);
-}*/
-
-#Logotipo{
-    width: 10%;
-    height: 100%;
-    background-color: rgb(221, 61, 200);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#Logotipo img{
- width: 50%;
+    justify-content: space-between;
 }
 
-#menu ul li{
-    float: left;
 
-    
-}
-
-#menu ul li a{
-    display: block;
-    color: beige;
-    text-align: center;
-    padding: 14px 20px ;
-    text-decoration: none;
-}
-
-#menu ul li a:hover{
-    color: #ffffff;
-    background-color: #ff3ef4 ;
-}
-
-#menu{
-    width: 90%;
-    height: 100%;
+.logo {
+    width: 15%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#menu ul{
+.logo img {
+    width: 80px;
+}
+
+/* Menú */    
+
+.menu ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: #f3a0c3;
-}
-
-
-#redes{
-    width: 10%;
-    height: 100%;
-    background-color:rgb(221, 61, 200);
+    width: 70%;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-#redes img{
-    width: 80%;
+    gap: 20px;
 }
 
-#boton{
-    background-color: rgba(209, 117, 209, 0.933) ;
-    padding: 12px 26px;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 600;
+.menu ul li a {
+    text-decoration: none;
+    background-color: #c72491;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.menu ul li a:hover {
+    background-color: #c72491;
+}
+
+/* Redes sociales */
+.redes {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.redes img {
+    width: 32px;
     cursor: pointer;
-    box-shadow: 0 6px 15px rgba(255, 111, 177, 0.4);
-    transition: all 0.3s ease;
+    filter: brightness(0.9);
 }
 
-#encabezado .encabezado1{
-    color: #ffffff;
+
+#cuadro {
+    background-color: #dff2e7;
+    min-height: 450px;
+    width: 70%;
+    margin: 20px auto;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-#encabezado .encabezado2{
-    color: #ffffff;
+
+.card1 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #c72491;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
 }
-#encabezado .encabezado{
-    color: #ffffff;
+
+.card1 img{
+    width: 250px;
+}
+
+.card1 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card1 p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card2 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #c72491;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card2 img{
+    width: 250px;
+}
+
+.card2 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card2 p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card3 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #c72491;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card3 img{
+    width: 250px;
+}
+
+.card3 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card3 p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card4 {
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #c72491;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card4 img{
+    width: 250px;
+}
+
+.card4 h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card4 p{
+    font-family: 'Times New Roman', Times, serif;
 }
